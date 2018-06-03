@@ -1,2 +1,2 @@
-# wedding_welcomboard_matching
-あれだ。マッチングだ
+# wedding_welcome_board_matching
+結婚式のウェルカムボードを作って欲しい人と作ってくれる作家さんがマッチングするアプリ
