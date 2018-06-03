@@ -21,8 +21,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'          # jQuery
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'  # AwesomeFont
 gem 'bootstrap', '~> 4.1.1'                       # Bootstrap4
-gem 'sass-rails'                                  # Sass For Rails
-gem 'materialize-sass', '~> 1.0.0.rc1'            # Material Design
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'            # Sass For Rails
 gem 'material_icons', '~> 2.2', '>= 2.2.1'        # Material icon
 # *-------------------------------------------------* #
 
