@@ -1,3 +1,57 @@
-// Place all the styles related to the top_page controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-image: image-url("welcome_page-min.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+.center-block {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  // 概要
+  .overview {
+    top: 50%;
+    margin-top: 40vh;
+    // タイトル
+    .title {
+      padding: 10px;
+      h1 {
+        font-size: 80px;
+        font-family: 'youreinvited';
+      }
+    }
+    // 詳細
+    .description {
+      padding: 10px;
+      h2 {
+        font-size: 30px;
+        font-family: 'honokamin';
+      }
+    }
+  }
+  //　ボタンゾーン
+  .btn-field {
+    margin-bottom: 40vh;
+    .square_btn {
+        position: relative;
+        display: inline-block;
+        font-weight: bold;
+        padding: 0.25em 0.5em;
+        text-decoration: none;
+        color: #FFF;
+        background: #ce2582;
+        transition: .4s;
+        box-shadow: 2px 2px 3px 1px #666;
+        -moz-box-shadow: 2px 2px 3px 1px #666;
+        -webkit-box-shadow: 2px 2px 3px 1px #666;
+        width: 300px;
+        height: 60px;
+      }
+
+    .square_btn:hover {
+        background: #e66ded;
+    }
+  }
+}

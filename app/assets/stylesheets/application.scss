@@ -1,1 +1,31 @@
 @import "bootstrap";
+@import "top_page";
+@import "font-awesome";
+
+@font-face{
+  font-family: "youreinvited";
+  src: font-url("YoureInvited.otf");
+}
+@font-face{
+  font-family: "nikumaru";
+  src: font-url("nikumaru.otf");
+}
+@font-face{
+  font-family: "logotypejp";
+  src: font-url("logotypejp.ttf");
+}
+@font-face{
+  font-family: "honokamin";
+  src: font-url("honokamin.ttf");
+}
+
+html {
+  font-family: Verdana,Roboto,
+               "Droid Sans",
+               "游ゴシック",YuGothic,
+               "ヒラギノ角ゴ ProN W3",
+               "Hiragino Kaku Gothic ProN",
+               "メイリオ",Meiryo,
+               sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
