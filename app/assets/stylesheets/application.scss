@@ -28,12 +28,12 @@ html {
                "メイリオ",Meiryo,
                sans-serif;
   -webkit-font-smoothing: antialiased;
-}
 
-.page-footer {
-  .footer-copyright {
-    a {
-      font-family: honokamin;
-    }
+  footer {
+  	height:100px;
+  	width:100%;
+  	position:absolute;
+  	bottom:0;
+    background-color: #ffc3c396;
   }
 }

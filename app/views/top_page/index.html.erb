@@ -1,25 +1,27 @@
-<div class="row">
-  <div class="center-block">
-    <div class="overview">
-      <div class="title">
-        <h1>Welcome Board Matching</h1>
-      </div>
-      <div class="description">
-        <h2>ウェルカムボードを依頼しよう</h2>
-      </div>
-    </div>
-
-    <div class="btn-field">
-      <div class="btn-lg btn-group to-ask">
-        <%= button_to top_page_index_path, class: 'square_btn' do %>
-          <%= fa_icon "chevron-right" %> 作品を依頼する
-        <% end %>
+<div class="container">
+  <div class="row">
+    <div class="center-block">
+      <div class="overview">
+        <div class="title">
+          <h1>Welcome Board Matching</h1>
+        </div>
+        <div class="description">
+          <h2>ウェルカムボードを依頼しよう</h2>
+        </div>
       </div>
 
-      <div class="btn-lg btn-group find-request">
-        <%= button_to top_page_index_path, class: 'square_btn' do %>
-          <%= fa_icon "chevron-right" %> 作品を作成する
-        <% end %>
+      <div class="btn-field">
+        <div class="btn-lg btn-group to-ask">
+          <%= button_to top_page_index_path, class: 'square_btn' do %>
+            <%= fa_icon "chevron-right" %> 作品を依頼する
+          <% end %>
+        </div>
+
+        <div class="btn-lg btn-group find-request">
+          <%= button_to top_page_index_path, class: 'square_btn' do %>
+            <%= fa_icon "chevron-right" %> 作品を作成する
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
