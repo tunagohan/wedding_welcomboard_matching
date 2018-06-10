@@ -7,13 +7,13 @@ body {
   background-color: #464646;
 }
 .center-block {
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   text-align: center;
   // 概要
   .overview {
     top: 50%;
-    margin-top: 40vh;
+    margin-top: 28vh;
     // タイトル
     .title {
       padding: 10px;
@@ -33,7 +33,6 @@ body {
   }
   //　ボタンゾーン
   .btn-field {
-    margin-bottom: 40vh;
     .square_btn {
         position: relative;
         display: inline-block;
