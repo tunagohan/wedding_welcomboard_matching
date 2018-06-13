@@ -28,6 +28,24 @@ html {
                "メイリオ",Meiryo,
                sans-serif;
   -webkit-font-smoothing: antialiased;
+  .navbar-default {
+      background-color: #f8f8f8;
+      border-color: #e7e7e7;
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-fixed-top {
+      border-radius: 0;
+  }
+  .navbar-fixed-top {
+      position: fixed;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+  }
+
 
   footer {
   	height:100px;
